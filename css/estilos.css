@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Spice&display=swap');
+*{      
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    background: linear-gradient(to left, #1C1C1C, #808080, #3B5998);
+    color: #fff;
+}
+h1{
+    font-family: 'Bungee', cursive;
+    display:inline-block;
+    font-size: 35px;
+    text-align: justify;
+    margin-top: 120px;
+    margin-left: 20px;
+    color: #EA3323;
+}
+.fuente50px{
+    font-size: 55px;
+}
+h2{
+    font-size: 25px;
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-left: 20px;
+} 
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+header {
+    
+    background-color: #000000;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+nav ul {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 10px;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    /* padding-right: 20px; */
+}
+
+nav ul li a:hover {
+    color: #EA3323;
+}
+.arg{
+    margin-left: 20px;
+    display:flex;
+    justify-content:space-between;
+    margin-right: 25px;
+}
+.oferta {
+    font-size: 20px;
+    text-align:center;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+/* Hero Section */
+.hero {
+    height: 20vh;
+    background: linear-gradient(to left, #1C1C1C, #808080, #3B5998);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: 'Bungee', sans-serif;
+    font-size: 4rem;
+    color: #EA3323;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 10px 0 20px 0;
+}
+
+.hero .btn {
+    background-color: #EA3323;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+    
+}
+
+.hero .btn:hover {
+    background-color: #C1271D;
+}
+
+/* Footer */
+footer {
+    /* background-color: #222; */
+    background-color: #000000;
+    padding: 0;
+    text-align:left;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+footer p {
+    margin: 0;
+}
+.mapa{
+    display:contents;
+    width: 5%;
+    height: 5%;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 5px;
+    
+    
+    
+}
+address {
+    margin-left: 10px;
+    
+    color:#ffffff;
+}
+.redes{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    .fa-whatsapp{
+        color: #00e676;
+        font-size: 64px; /*16x4=64 */
+        position:fixed;
+        margin-left: 125px;
+        top: 20px;
+        
+    }
+   
+}
+.fa-up-long{
+    font-size: 64px;
+    
+    margin-left: 20px;
+    bottom: 220px;
+    
+}
+.mision{
+    margin-top: 3px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    list-style-type: none;
+}
+.mision ul{
+    margin-left: 10px;  
+    list-style-type: none; 
+}
+.mision ul li{
+    margin: 5px 3px;
+    span {
+    color: red;
+    }
+}
+h3{
+    
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
