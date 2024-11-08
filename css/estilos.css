@@ -15,7 +15,7 @@ body {
 h1{
     font-family: 'Bungee', cursive;
     display:inline-block;
-    font-size: 35px;
+    font-size: 40px;
     text-align: justify;
     margin-top: 120px;
     margin-left: 20px;
@@ -24,10 +24,10 @@ h1{
 .fuente50px{
     font-size: 55px;
 }
-h2{
-    font-size: 25px;
+h2{ margin-top:70px;
+    font-size: px;
     text-align: justify;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     margin-left: 20px;
 } 
 
@@ -126,6 +126,70 @@ nav ul li a:hover {
 .hero .btn:hover {
     background-color: #C1271D;
 }
+  /*Estilos seccion principal del index*/
+  .principalIndex{
+    margin-top: 108 px;
+    background-image:url("../assets/img/consola_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100vh; 
+    text-align: center;
+    position:relative top;
+    /* p{ color:#ffffff;
+      font-size: 1.3rem;
+      text-align: justify center;
+      width: 50%;
+      backdrop-filter: blur(15px);
+          
+      
+      } */
+    
+    
+     
+      .contenedorTextoPrincipalIndex{
+          position:absolute;
+          top:60vh;
+          left: 50%;
+          transform: translate(-50%, -50%);
+
+          z-index: 1002;
+          margin:0 auto;
+          margin-top: 10%;
+          /* border:2px solid  #510d1b; */
+          padding:10px;
+          border-radius: 5px;
+          text-align: center;
+          width: 50%;
+          font-size: 10px;
+          color: rgb(255, 255, 255);
+          
+          
+          backdrop-filter: blur(15px);
+      
+      
+          p{  
+              font-size: 2.2em;
+          }
+          a{
+              display:inline-block;
+              margin-top:20px;
+              text-decoration: none;
+              color: rgb(255, 255, 255);
+              font-size: 2.5em;
+              border:2px solid black;
+              padding:5px;
+              border-radius:5px;
+              box-shadow: -10px 0px 35px 12px rgba(255,0,0,0.66);
+    
+            }
+            
+        }
+    
+   
+   
+}
+
 
 /* Footer */
 footer {
@@ -160,22 +224,34 @@ address {
     
     color:#ffffff;
 }
-.redes{
-    margin-top: 55px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 5px;
-    .fa-whatsapp{
-        color: #00e676;
-        font-size: 64px; /*16x4=64 */
-        position:fixed;
-        margin-left: 125px;
-        top: 20px;
-        
+ul{
+    list-style: none;
+  
+    a{
+        text-decoration: none;
+        color:  #ffffff;
+        font-size: 1.5em;
+        margin-top: 20px;
     }
+    .fa-instagram, .f a-facebook, .fa-twitter{
+        font-size: 3em;
+    }
+}
+.fa-whatsapp{
+    font-size: 5em;
+    color:rgb(44, 181, 44);
+    position:fixed;
+    bottom: 180px;
+    right: 20px;
    
 }
+p{
+    font-size: 1.2em;
+    color: #ffffff;
+  
+}
+
+
 .fa-up-long{
     font-size: 64px;
     
@@ -184,7 +260,7 @@ address {
     
 }
 .mision{
-    margin-top: 3px;
+    margin-top: 20px;
     margin-left: 30px;
     margin-bottom: 5px;
     color: #ffffff;
@@ -202,6 +278,11 @@ address {
 }
 h3{
     
-    margin-top: 15px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    
+}
+ul.redes{
+    margin-top: 60px;
+    margin-left: 10px;
 }
