@@ -25,19 +25,32 @@ h1{
     font-size: 55px;
 }
 h2{ margin-top:70px;
-    font-size: px;
+    font-size: 30px;
     text-align: justify;
     margin-bottom: 30px;
     margin-left: 20px;
 } 
 
-.photos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 5px;
-}
+.tienda{
+ 
+    background-image:url("../assets/img/tienda_juegavideo.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh; 
+    text-align: center;
+    /* position:relative;
+    color: red;
+    font-size: 1.2rem; */
+    
+
+    
+
+    }
+
+    .nosotros{
+        margin-left: 20px;
+    }    
 header {
     
     background-color: #000000;
@@ -47,6 +60,7 @@ header {
     align-items: center;
     position: fixed;
     top:0;
+    z-index: 1005;
     width: 100%;
 }
 
@@ -189,7 +203,12 @@ nav ul li a:hover {
    
    
 }
-
+ /*productos Destacados*/
+ .productosDestacados{
+    img{
+       width: 200px;
+    }
+}
 
 /* Footer */
 footer {
@@ -260,9 +279,10 @@ p{
     
 }
 .mision{
-    margin-top: 20px;
+    
+    margin-top:63px;
     margin-left: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 40px;
     color: #ffffff;
     list-style-type: none;
 }
