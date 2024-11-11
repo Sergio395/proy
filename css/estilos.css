@@ -42,7 +42,7 @@ header {
     position: fixed;
     top:0;
     z-index: 1005;
-    height: 7vh;
+    height: 8vh;
     padding: 10px;
     width: 100%;
 }
@@ -76,6 +76,7 @@ nav ul li a:hover {
     color: #EA3323;
 }
 .arg{
+    margin-top: 25px;
     margin-left: 20px;
     display:flex;
     justify-content:space-between;
@@ -122,14 +123,14 @@ nav ul li a:hover {
 }
   /*Estilos seccion principal del index*/
   .principalIndex{
-    /* margin-top: 108 px; */
-    padding-top: 25px;
+    margin-top: 5px;
+    /* padding-top: 25px; */
     padding-left: 80px;
     background-image:url("../assets/img/consola_1920.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    height: 93vh; 
+    height: 92vh; 
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -198,6 +199,7 @@ nav ul li a:hover {
         width: 90%;
         margin: 0 auto;
         justify-content: space-between;
+        flex-wrap: wrap;
         .masPedidos{
             /* border: 1px solid rgb(109, 87, 87); */
             padding: 10px;
@@ -236,7 +238,93 @@ nav ul li a:hover {
        width: 200px;
     }
 }
+/*MARCAS QUE SE VENDEN */
 
+.marcasQueSeVenden{
+    margin-top: 15px;
+    text-align: center;
+    .btnMarcas{
+        display: inline-block;
+        margin-top: 30px;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        border:2px solid rgb(109, 103, 103);
+        padding:5px;
+        border-radius:5px;
+        box-shadow: -10px 0px 35px 12px rgba(255,0,0,0.66);
+        background-color: #1f1e1e;
+    }
+    /* .btnMarcas {
+        background-color: #1f1e1e;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        margin-bottom: 10px;
+        
+    }
+    
+    .btnMarcas:hover {
+        background-color: #C1271D; */
+    
+    .galeriaMarcas{
+        padding: 10px;
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .brands{
+            /* border: 1px solid rgb(109, 87, 87); */
+            padding: 10px;
+            /* box-shadow: -10px 0px 35px 12px rgba(155,155,155,0.350); */
+            border-radius:5px;
+        }
+
+    }
+}
+/*Nuestros Clientes*/
+
+.nuestrosClientes{
+    margin-top: 15px;
+    text-align: center;
+    .btnClientes{
+        display: inline-block;
+        margin-top: 30px;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        border:2px solid rgb(109, 103, 103);
+        padding:5px;
+        border-radius:5px;
+        box-shadow: -10px 0px 35px 12px rgba(255,0,0,0.66);
+        background-color: #1f1e1e;
+    }
+ 
+    
+    .galeriaResenia{
+        /* background-color: pink; */
+        padding: 10px;
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        row-gap: 20px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .op{
+            /* border: 1px solid rgb(109, 87, 87); */
+            padding: 10px;
+            /* box-shadow: -10px 0px 35px 12px rgba(155,155,155,0.350); */
+            border-radius:5px;
+        }
+
+    }
+}
 /* Footer */
 footer {
     /* background-color: #222; */
@@ -284,7 +372,7 @@ ul{
     }
 }
 .fa-whatsapp{
-    font-size: 5em;
+    font-size: 4em;
     color:rgb(44, 181, 44);
     position:fixed;
     bottom: 180px;
