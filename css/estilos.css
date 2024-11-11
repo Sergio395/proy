@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #111;
-    background: linear-gradient(to left, #1C1C1C, #808080, #3B5998);
+    background: linear-gradient(to left, #1f1e1e, #808080, #3B5998);
     color: #fff;
 }
 h1{
@@ -21,15 +21,12 @@ h1{
     margin-left: 20px;
     color: #EA3323;
 }
-.fuente50px{
+.fuente55px{
     font-size: 55px;
 }
 h2{ 
-    /* margin-top:70px; */
     font-size: 1.8rem;
     text-align: center;
-    /* margin-bottom: 30px; */
-    /* margin-left: 20px; */
     padding-top: 16px;
 } 
 header {
@@ -69,7 +66,6 @@ nav ul li a {
     font-size: 1.3em;
     font-weight: bold;
     transition: color 0.3s ease;
-    /* padding-right: 20px; */
 }
 
 nav ul li a:hover {
@@ -84,6 +80,7 @@ nav ul li a:hover {
 }
 
 /* Explora Section */
+
 .explora {
     height: 20vh;
     background: linear-gradient(to left, #1C1C1C, #808080, #3B5998);
@@ -121,10 +118,10 @@ nav ul li a:hover {
 .explora .btn:hover {
     background-color: #C1271D;
 }
+
   /*Estilos seccion principal del index*/
   .principalIndex{
     margin-top: 5px;
-    /* padding-top: 25px; */
     padding-left: 80px;
     background-image:url("../assets/img/consola_1920.jpg");
     background-size: cover;
@@ -135,16 +132,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    /* position:relative top; */
-    /* p{ color:#ffffff;
-      font-size: 1.3rem;
-      text-align: justify center;
-      width: 50%;
-      backdrop-filter: blur(15px);
-          
-      
-      } */
-    
+
     
      
       .contenedorTextoPrincipalIndex{
@@ -152,24 +140,19 @@ nav ul li a:hover {
           top:60vh;
           left: 50%;
           transform: translate(-50%, -50%);
-
           z-index: 1002;
           margin:0 auto;
           margin-top: 10%;
-          /* border:2px solid  #510d1b; */
           padding:10px;
           border-radius: 5px;
           text-align: center;
           width: 50%;
           font-size: 10px;
           color: rgb(255, 255, 255);
-          
-          
           backdrop-filter: blur(15px);
-      
-      
-          p{  
-              font-size: 2.2em;
+
+          p{
+            font-size: 2.2em;
           }
           a{
               display:inline-block;
@@ -201,9 +184,7 @@ nav ul li a:hover {
         justify-content: space-between;
         flex-wrap: wrap;
         .masPedidos{
-            /* border: 1px solid rgb(109, 87, 87); */
             padding: 10px;
-            /* box-shadow: -10px 0px 35px 12px rgba(155,155,155,0.350); */
             border-radius:5px;
         
             a{
@@ -256,20 +237,7 @@ nav ul li a:hover {
         box-shadow: -10px 0px 35px 12px rgba(255,0,0,0.66);
         background-color: #1f1e1e;
     }
-    /* .btnMarcas {
-        background-color: #1f1e1e;
-        color: #fff;
-        padding: 10px 20px;
-        text-decoration: none;
-        font-size: 1.2rem;
-        border-radius: 5px;
-        transition: background-color 0.3s ease;
-        margin-bottom: 10px;
-        
-    }
-    
-    .btnMarcas:hover {
-        background-color: #C1271D; */
+
     
     .galeriaMarcas{
         padding: 10px;
@@ -279,9 +247,7 @@ nav ul li a:hover {
         justify-content: space-between;
         flex-wrap: wrap;
         .brands{
-            /* border: 1px solid rgb(109, 87, 87); */
             padding: 10px;
-            /* box-shadow: -10px 0px 35px 12px rgba(155,155,155,0.350); */
             border-radius:5px;
         }
 
@@ -308,7 +274,6 @@ nav ul li a:hover {
  
     
     .galeriaResenia{
-        /* background-color: pink; */
         padding: 10px;
         display: flex;
         width: 80%;
@@ -317,9 +282,7 @@ nav ul li a:hover {
         justify-content: space-evenly;
         flex-wrap: wrap;
         .op{
-            /* border: 1px solid rgb(109, 87, 87); */
             padding: 10px;
-            /* box-shadow: -10px 0px 35px 12px rgba(155,155,155,0.350); */
             border-radius:5px;
         }
 
@@ -327,15 +290,14 @@ nav ul li a:hover {
 }
 /* Footer */
 footer {
-    /* background-color: #222; */
+    
     background-color: #000000;
     padding: 0;
     text-align:left;
-    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+   
 
 }
 
@@ -347,7 +309,6 @@ footer p {
     width: 5%;
     height: 5%;
     justify-content: space-around;
-    /* align-items: center; */
     margin-top: 5px;
     
     
@@ -355,19 +316,31 @@ footer p {
 }
 address {
     margin-left: 10px;
-    
+    height: 16vh;
     color:#ffffff;
+
 }
 ul{
     list-style: none;
   
-    a{
+    a{  display: inline-block;
         text-decoration: none;
         color:  #ffffff;
         font-size: 1.5em;
-        margin-top: 20px;
+        margin-top: 15px;
+        .legal{
+        
+            align-items: center;
+            color: #ffffff;
+        }
+
+
     }
-    .fa-instagram, .f a-facebook, .fa-twitter{
+    .fa-instagram{
+        font-size: 1.5em;
+    }
+
+    .f a-facebook, .fa-twitter{
         font-size: 3em;
     }
 }
@@ -420,4 +393,49 @@ h3{
 ul.redes{
     margin-top: 60px;
     margin-left: 10px;
+
 }
+/* GALERIA - VIDEOJUEGOS */
+
+.galeriaVideojuegos{
+
+          padding: 10px;
+          display: flex;
+          width: 80%;
+          margin: 0 auto;
+          row-gap: 20px;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          .producto{
+            padding: 10px;
+
+            a{
+                display:inline-block;
+                width: 200px;
+                background-color: #000000;
+                margin-top:20px;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-size: 1.5em;
+                border:2px solid rgb(109, 103, 103);
+                padding:5px;
+                border-radius:5px;
+                box-shadow: -10px 0px 35px 12px rgba(65, 62, 62, 0.66);
+
+            
+ 
+              }
+              .btn{
+                
+                color: yellow;
+                padding:10px
+                }
+              .btn:hover {
+                    color: #EA3323;
+                }   
+
+
+          }
+  
+      }
+  }
