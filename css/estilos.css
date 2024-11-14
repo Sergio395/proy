@@ -10,7 +10,11 @@ body {
     padding: 0;
     background-color: #111;
     background: linear-gradient(to left, #1f1e1e, #808080, #3B5998);
-    color: #fff;
+    color: #fff;   
+    overflow-x: hidden; /* Oculta el scroll horizontal */
+    max-width: 100vw; /* Limita el ancho máximo al viewport */     
+  
+
 }
 h1{
     font-family: 'Bungee', cursive;
@@ -29,6 +33,30 @@ h2{
     text-align: center;
     padding-top: 16px;
 } 
+
+@media screen and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+        max-width: 100vw;
+    }  
+    h1 {
+        font-size: 35px;
+        margin-top: 120px; /* Ajuste del margen superior */
+        margin-left: 0; /* Elimina el margen izquierdo */
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+        width: 100%; /* Ajusta el ancho */
+    }
+    .fuente55px {
+        font-size: 40px; /* Reduce el tamaño de la fuente grande */
+    }
+    h2 {
+        font-size: 1.5rem;
+        padding-top: 8px; /* Reduce padding */
+    }
+}
+
+
 header {
     
     background-color: #000000;
@@ -71,13 +99,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #EA3323;
 }
-.arg{
-    margin-top: 25px;
-    margin-left: 20px;
-    display:flex;
-    justify-content:space-between;
-    margin-right: 25px;
-}
+
 
 /* Explora Section */
 
@@ -172,6 +194,101 @@ nav ul li a:hover {
    
    
 }
+
+/* Media query para pantallas móviles */
+@media screen and (max-width: 768px) {
+
+    header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        width: 100vw; /* Asegura que el header ocupe el 100% del ancho */
+    }
+    nav ul li {
+        margin-left: 10px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }    
+    .principalIndex {
+        padding-left: 10px;
+        width: 100vw;
+        margin: 0 auto;
+        /* background-image:url("../assets/img/consola_640.jpg"); */
+        background-color: #333;
+    }
+
+    .contenedorTextoPrincipalIndex {
+        position: absolute;
+        top: 60vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90vw;
+        padding: 10px;
+        text-align: center;
+        p{
+            display: none;
+        }
+    }
+.productosDestacados{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+
+        .masPedidos{
+            margin-bottom: 50px;
+            width: 100%;
+        }
+
+    }
+    .marcasQueSeVenden{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+
+        .brands{
+            margin-bottom: 50px;
+            width: 100%;
+        }
+
+    }
+ 
+    .mision{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-right: 8px;
+    }
+    /*
+    footer {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+         /* Asegura que el header ocupe el 100% del ancho 
+    }
+      
+        nav ul li a {
+            margin-left: 10px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            margin: 0 auto;
+            font-size: 1em;
+            margin-left: ;
+        }
+    
+        
+        google-map-link{
+           
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+            
+        } */
+    
+}
+
+
  /*productos Destacados*/
  .productosDestacados{
     text-align: center;
@@ -395,6 +512,31 @@ ul.redes{
     margin-left: 10px;
 
 }
+
+
+@media screen and (max-width: 768px) {
+    footer {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        width: 100vw;/* Asegura que el header ocupe el 100% del ancho 
+    }
+    nav ul{
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-bottom: 1px;
+        padding: 1px;
+        justify-content: center;
+    }
+    nav ul li a {
+
+        padding: 1px;
+       
+
+}
+
+
 /* GALERIA - VIDEOJUEGOS */
 
 .galeriaVideojuegos{
