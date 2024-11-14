@@ -11,8 +11,8 @@ body {
     background-color: #111;
     background: linear-gradient(to left, #1f1e1e, #808080, #3B5998);
     color: #fff;   
-    overflow-x: hidden; /* Oculta el scroll horizontal */
-    max-width: 100vw; /* Limita el ancho máximo al viewport */     
+    overflow-x: hidden;
+    max-width: 100vw;     
   
 
 }
@@ -33,7 +33,7 @@ h2{
     text-align: center;
     padding-top: 16px;
 } 
-
+/* Media query móviles: para body y haches */
 @media screen and (max-width: 768px) {
 
     body {
@@ -42,21 +42,23 @@ h2{
     }  
     h1 {
         font-size: 35px;
-        margin-top: 120px; /* Ajuste del margen superior */
-        margin-left: 0; /* Elimina el margen izquierdo */
-        text-align: center; /* Centra el texto en pantallas pequeñas */
-        width: 100%; /* Ajusta el ancho */
+        margin-top: 120px;
+        margin-left: 0; 
+        text-align: center;
+        width: 100%;
     }
     .fuente55px {
-        font-size: 40px; /* Reduce el tamaño de la fuente grande */
+        font-size: 40px;
     }
     h2 {
         font-size: 1.5rem;
-        padding-top: 8px; /* Reduce padding */
+        padding-top: 8px; 
     }
 }
+/* Fin de media query: Body-haches*/
 
 
+/* Encabezado - LOGO - Navegación principal */
 header {
     
     background-color: #000000;
@@ -195,7 +197,7 @@ nav ul li a:hover {
    
 }
 
-/* Media query para pantallas móviles */
+/* Media query para pantallas móviles - encabezado-navegación - distintas secciones*/
 @media screen and (max-width: 768px) {
 
     header {
@@ -259,37 +261,12 @@ nav ul li a:hover {
         margin-top: 50px;
         margin-right: 8px;
     }
-    /*
-    footer {
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-        padding: 5px;
-         /* Asegura que el header ocupe el 100% del ancho 
-    }
-      
-        nav ul li a {
-            margin-left: 10px;
-            margin-right: 5px;
-            margin-bottom: 5px;
-            margin: 0 auto;
-            font-size: 1em;
-            margin-left: ;
-        }
-    
-        
-        google-map-link{
-           
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-            
-        } */
+
     
 }
+/* Fin de media query para pantallas móviles - encabezado-navegación - distintas secciones*/
 
-
- /*productos Destacados*/
+ /*productos Destacados // mas secciones////////////////////////////////////////////*/
  .productosDestacados{
     text-align: center;
     
@@ -405,7 +382,7 @@ nav ul li a:hover {
 
     }
 }
-/* Footer */
+/* Footer /////////////////////////////////////////////////////////////*/
 footer {
     
     background-color: #000000;
@@ -501,7 +478,7 @@ p{
     color: red;
     }
 }
-h3{
+h3 h4{
     
     margin-top: 25px;
     margin-bottom: 20px;
@@ -548,7 +525,7 @@ ul.redes{
 
     }
  
-/* GALERIA - VIDEOJUEGOS */
+/* GALERIA - VIDEOJUEGOS  - NUEVA PAGINA \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 .galeriaVideojuegos{
 
@@ -592,7 +569,8 @@ ul.redes{
   
       }
       .muestravideo{
-
+        margin-top: 20px;
+        margin-bottom: 20px;
         padding: 10px;
         display: flex;
         width: 100vw;
@@ -609,15 +587,32 @@ ul.redes{
            
             
         }
-        .video{
-          padding: 10px;
-        }}
+        .adivina video video2{
+            padding: 10px;
+            display: flex;
+            width: 100vw;
+            margin: 0 auto;
+            row-gap: 20px;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .iframe{
+            width: 100%;
+           h2{
+            margin-top: 40px;
+            margin-bottom: 40px;
+           }
+            
+
+        }
+
+    }
 
       @media screen and (max-width: 768px) {
         .muestravideo{
             overflow: hidden;
             
-            .video{
+            .adivina video video2{
                 width: 100%;
                 overflow: hidden;
                 height: auto; 
@@ -628,7 +623,7 @@ ul.redes{
 
       }
     
-/* Contenedor del formulario */
+/* Contenedor del formulario - NUEVA PAGINA CONTACTOS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 form {
     background-color: #fff;
     padding: 2rem;
@@ -702,7 +697,7 @@ form {
   }
 
 
-  /* CARRITO ESTILOS EN TABLA DE COMPRA */
+  /* CARRITO ESTILOS EN TABLA DE COMPRA - NUEVA PAGINA CARRITO  \\\\\\\\\\\\\\\\\\\\\\\\\\'*/
 
   .carrito {
     max-width: 600px;
