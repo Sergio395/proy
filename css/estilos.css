@@ -591,8 +591,42 @@ ul.redes{
           }
   
       }
+      .muestravideo{
 
-      
+        padding: 10px;
+        display: flex;
+        width: 100vw;
+        margin: 0 auto;
+        row-gap: 20px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        a{
+            display: inline-block;
+            width: 100vw;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+           
+            
+        }
+        .video{
+          padding: 10px;
+        }}
+
+      @media screen and (max-width: 768px) {
+        .muestravideo{
+            overflow: hidden;
+            
+            .video{
+                width: 100%;
+                overflow: hidden;
+                height: auto; 
+    
+            }
+
+        }
+
+      }
     
 /* Contenedor del formulario */
 form {
