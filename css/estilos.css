@@ -214,8 +214,8 @@ nav ul li a:hover {
         padding-left: 10px;
         width: 100vw;
         margin: 0 auto;
-        /* background-image:url("../assets/img/consola_640.jpg"); */
-        background-color: #333;
+        background-image:url("../assets/img/consola_640.jpg");
+       
     }
 
     .contenedorTextoPrincipalIndex {
@@ -520,23 +520,34 @@ ul.redes{
         flex-direction: column;
         align-items: center;
         padding: 5px;
-        width: 100vw;/* Asegura que el header ocupe el 100% del ancho 
+        width: 100vw;/* Asegura que el header ocupe el 100% del ancho */
+
     }
-    nav ul{
-        margin-left: 1px;
-        margin-right: 1px;
-        margin-bottom: 1px;
-        padding: 1px;
-        justify-content: center;
+    nav{
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        /* width: 100vw;Asegura que el header ocupe el 100% del ancho */
+  
+      
     }
-    nav ul li a {
+    nav ul li {
+        margin-left: 10px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        a{
+            font-size: 1em;
+        }
+    }
+    address{
+        margin-top: 15px;
+        margin-left: 10px;
+        height: 15vh;
+        color:#ffffff;
+    }    
 
-        padding: 1px;
-       
-
-}
-
-
+    }
+ 
 /* GALERIA - VIDEOJUEGOS */
 
 .galeriaVideojuegos{
@@ -580,6 +591,9 @@ ul.redes{
           }
   
       }
+
+      
+    
 /* Contenedor del formulario */
 form {
     background-color: #fff;
