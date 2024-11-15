@@ -736,22 +736,36 @@ margin-bottom: 0.8rem;
 /* Estilo para botones */
   input[type="reset"],
   input[type="submit"] {
-    padding: 0.75rem;
+    /* padding: 0.75rem;
     font-size: 1rem;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     width: calc(50% - 0.5rem);
+    margin-top: 1rem; */
+
+    display: inline-block;
     margin-top: 1rem;
+    /* padding: 5px 10px; */
+    padding: 0.75rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    border:2px solid #6d6767;
+    padding: auto;
+    border-radius:5px;
+    box-shadow: -10px 0px 35px 12px rgba(255,0,0,0.66);
+    background-color: #1f1e1e;
   }
 
   input[type="reset"] {
-    background-color: #d9534f;
+    background-color: #000000;
     color: #fff;
+    margin: 20px;
   }
 
   input[type="submit"] {
-    background-color: #5cb85c;
+    background-color: #000000;
     color: #fff;
   }
 
@@ -819,7 +833,7 @@ tbody tr:nth-child(even) {
 
 h3{
     color: #000000;
-    font-size: 1em;
+    font-size: 1.3em;
     text-align: center;
     margin-top: 20px;
 }
@@ -827,5 +841,20 @@ h4{
     text-align: center;
 
 }
+/* SUCURSALES - NUEVA PAGINA */
 
+.sucursales{
+    max-width: 600px;
+    width: 100%;
+    padding: 1rem;
+    background-color: #808080;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin: 0 auto;
+    dt{
+        color: black
+    }
+
+}
   
