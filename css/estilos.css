@@ -601,7 +601,7 @@ ul.redes{
         
     }
 
-    .adivina video video2{
+    .adivina video video2 {
         position:absolute;
         top:60vh;
         left: 50%;
@@ -613,9 +613,9 @@ ul.redes{
         border-radius: 5px;
         text-align: center;
         width: 50%;
-        /* font-size: 10px; */
         color: rgb(255, 255, 255);
         backdrop-filter: blur(15px);
+        margin-bottom: 20px;
 
         }
 
@@ -629,12 +629,28 @@ ul.redes{
             padding:5px;
             border-radius:5px;
             box-shadow: -10px 0px 35px 12px rgba(255,0,0,0.66);
+            .btnAdivina{
+                display: inline-block;
+                margin-top: 30px;
+                padding: 5px 10px;
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 1.2rem;
+                border:2px solid #6d6767;
+                padding:5px;
+                border-radius:5px;
+                box-shadow: -10px 0px 35px 12px rgba(255,0,0,0.66);
+                background-color: #1f1e1e;
+            }
 
         }
         
     }
-
-
+.audio{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;    
+} 
         
 .juego{
     padding: 10px;
