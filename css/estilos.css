@@ -581,6 +581,7 @@ ul.redes{
     margin: 0 auto;
     row-gap: 20px;
     justify-content: space-evenly;
+    text-align: center;
     flex-wrap: wrap;
 
     a{
@@ -658,11 +659,12 @@ p{
 
 @media screen and (max-width: 768px) {
 .muestravideo{
-    overflow: hidden;
+    overflow: auto;
+    
     
     .adivina video video2{
         width: 100%;
-        overflow: hidden;
+        overflow: auto;
         height: auto; 
 
     }
@@ -800,6 +802,10 @@ h3{
     font-size: 1em;
     text-align: center;
     margin-top: 20px;
+}
+h4{ 
+    text-align: center;
+
 }
 
   
