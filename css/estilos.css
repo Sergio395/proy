@@ -568,7 +568,7 @@ ul.redes{
           }
   
       }
-      .muestravideo{
+      .muestravideo{    
         margin-top: 20px;
         margin-bottom: 20px;
         padding: 10px;
@@ -578,16 +578,63 @@ ul.redes{
         row-gap: 20px;
         justify-content: space-evenly;
         flex-wrap: wrap;
+
         a{
-            display: inline-block;
+            display:inline-block;
             width: 100vw;
-            text-align: center;
-            margin-top: 20px;
-            margin-bottom: 20px;
+            background-color: #000000;
+            margin-top:20px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 0.5em;
+            border:2px solid rgb(109, 103, 103);
+            padding:5px;
+            border-radius:5px;
+            box-shadow: -10px 0px 35px 12px rgba(65, 62, 62, 0.66);
+           
            
             
         }
+
         .adivina video video2{
+            position:absolute;
+          top:60vh;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 1002;
+          margin:0 auto;
+          margin-top: 10%;
+          padding:10px;
+          border-radius: 5px;
+          text-align: center;
+          width: 50%;
+          font-size: 10px;
+          color: rgb(255, 255, 255);
+          backdrop-filter: blur(15px);
+         h3 h4{
+            font-size: 1em;
+         }
+          p{
+            font-size: 0.8em;
+          }
+          a{
+              display:inline-block;
+              margin-top:20px;
+              text-decoration: none;
+              color: rgb(0, 0, 0);
+              font-size: 1em;
+              border:2px solid rgb(109, 103, 103);
+              padding:5px;
+              border-radius:5px;
+              box-shadow: -10px 0px 35px 12px rgba(255,0,0,0.66);
+    
+            }
+            
+        }
+    
+  
+        }
+        .juego{
             padding: 10px;
             display: flex;
             width: 100vw;
@@ -595,18 +642,18 @@ ul.redes{
             row-gap: 20px;
             justify-content: space-evenly;
             flex-wrap: wrap;
+   
         }
         .iframe{
             width: 100%;
-           h2{
-            margin-top: 40px;
-            margin-bottom: 40px;
-           }
-            
+
 
         }
+        p{
+            font-size: 2.2em;
+          }
 
-    }
+
 
       @media screen and (max-width: 768px) {
         .muestravideo{
