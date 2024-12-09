@@ -1,7 +1,9 @@
 // Definición de productos
 const productos = [
     { id: 1, nombre: 'Elden Ring', precio: 27507.25 , imagen: '../assets/img/elden-ring.jpg'},
-    { id: 2, nombre: 'Dragon Dogma II', precio: 47623.22 , imagen: '../assets/img/dragonsdogma2.webp'}
+    { id: 2, nombre: 'Dragon Dogma II', precio: 47623.22 , imagen: '../assets/img/dragonsdogma2.webp'},
+    { id: 3, nombre: 'Alone in the dark', precio: 20239.00 , imagen: '../assets/img/alone-in-the-dark.webp'},
+    { id: 4, nombre: 'Tekken8', precio: 29847.00 , imagen: '../assets/img/tekken8.webp'}
 ];
 // Agregar eventos a los botones de agregar al carrito en la página principal
 const botonesAgregar = document.querySelectorAll('.btn');
