@@ -53,42 +53,39 @@
                 <h2>Productos destacados</h2>
                 <div class="galeriaDestacados" id="destacados">
 
-                    
-                    <div class="producto" data-id="1">
-                        <img class="img-item" src="./assets/img/elden_ring.avif" width="150px"  alt="videojuego anillo de edad">
-                        
-                        <h3 class="titulo-item" >Elden Ring: Steam Key</h3>
-                        <h4 class="precio-item" >$27,507.25</h4>
-                        <a href="./pages/carrito.html" class="btn">Agregar ->><i class="fa-solid fa-cart-shopping" style="color: #ff0000;"></i></i></a>
-                        
+                    <div class="product" id="product1">
+                        <img src="./assets/img/elden_ring.avif" alt="videojuego Anillo de Elden">
+                        <h3 class="titulo-item">Elden Ring: Steam Key<</h3>
+                        <h4 class="precio-item" >Precio: $27,507.25</h4>
+                        <a href="index.html#destacados" class="btn" onclick="addToCart(1, 'Elden Ring', 27507.25)">Agregar ->><i class="fa-solid fa-cart-shopping" style="color: #ff0000;"></i></i></a>
                     </div>
-                    
-
-                    <div class="producto" data-id="2">
-                        
-                        <img class="img-item" src="./assets/img/dragonsdogma2.webp" alt="videojuego el dogma del dragón">
-
-                        <h3  class="titulo-item">Dragon Dogma: Xbox</h3>
-                        <h4 class="precio-item" >$47,623.22</h4>
-                        <a href="./pages/carrito.html" class="btn">Agregar ->><i class="fa-solid fa-cart-shopping" style="color: #ff0000;"></i></i></a>
-                        
+                    <div class="product" id="product2">
+                        <img src="./assets/img/dragonsdogma2.webp" alt="videojuego El dogma de los dragones">
+                        <h3 class="titulo-item">Dragon Dogma II: Xbox</h3>
+                        <h4 class="precio-item" >Precio: $47,623.22</h4>
+                        <a href="index.html#destacados"class="btn" onclick="addToCart(2, 'Daragon Dogma II', 47623.22)">Agregar ->><i class="fa-solid fa-cart-shopping" style="color: #ff0000;"></i></i></a>
                     </div>
-                    <div class="producto" data-id="3">
+                    <div class="product" id="product3">
+                        <img src="./assets/img/alone-in-the-dark.webp" alt="videojuego Solo en la oscuridad"">
+                        <h3 class="titulo-item">Alone in the dark: Global</h3>
+                        <h4 class="precio-item" >Precio: $20,239.99</h4>
+                        <a href="index.html#destacados" class="btn" onclick="addToCart(3, 'Alone in the dark', 20239.99)">Agregar ->><i class="fa-solid fa-cart-shopping" style="color: #ff0000;"></i></i></a>
+                    </div>
+                    <div class="product" id="product4">
+                        <img src="./assets/img/tekken8.webp" alt="videojuego Secuestrada">
+                        <h3 class="titulo-item">Tekken8: LATAM</h3>
+                        <h4 class="precio-item" >Precio: $29,849.99</h4>
+                        <a href="index.html#destacados" class="btn" onclick="addToCart(4, 'Takken8', 29849.99)">Agregar ->><i class="fa-solid fa-cart-shopping" style="color: #ff0000;"></i></i></a>
+                    </div>
+
+                    <!-- <div class="producto" data-id="3">
                         
-                        <img src="./assets/img/alone-in-the-dark.webp" alt="videojuego solo en la oscuridad">
-                        
+                        <img src="./assets/img/alone-in-the-dark.webp" alt="videojuego solo en la oscuridad">                        
                         <h3>Alone in the dark: Global</h3>
                         <h4>$ 20.239</h4>
                         <a href="./pages/carrito.html" class="btn">Agregar ->><i class="fa-solid fa-cart-shopping" style="color: #ff0000;"></i></i></a>
-                    </div>
-                    <div class="producto" data-id="4">
-                    
-                        <img src="./assets/img/tekken8.webp" alt="videojuego secuestrada">
-                            
-                        <h3>Tekken8: LATAM</h3>
-                        <h4>$ 29.847</h4>
-                        <a href="./pages/carrito.html" class="btn">Agregar ->><i class="fa-solid fa-cart-shopping" style="color: #ff0000;"></i></i></a>
-                        </div>
+                    </div>-->
+
                     </div>
                 
             </section>
@@ -273,6 +270,6 @@
         </footer>
     
       
-      <script src="./js/app.js" ></script>
+      <script src="./js/carrito.js" ></script>
     </body>
 </html>

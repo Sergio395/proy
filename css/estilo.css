@@ -291,7 +291,7 @@ text-align: center;
         padding: 10px;
         border-radius:5px;
     
-        a{
+       button a{
             display:inline-block;
             width: 200px;
             background-color: #000000;
@@ -303,17 +303,21 @@ text-align: center;
             padding:5px;
             border-radius:5px;
             box-shadow: -10px 0px 35px 12px rgba(65, 62, 62, 0.66);
-
+            button a:hover {
+                background-color: #0056b3; /* Cambiar color al pasar por encima */
+            }
+            
         
 
             }
             .btn{
             
-            color: #ffff00;
+            color: red;
             padding:10px;
+            background-color: #000;
             }
             .btn:hover {
-                color: #EA3323;
+                color: #fff;
             }   
     }
 
@@ -785,7 +789,7 @@ background-color: #4cae4c;
 
 /* seccion carrito */
 
-.carritoVacio {
+/* .carritoVacio {
     
     margin-top: 10px;
     font-size: 3rem;
@@ -799,10 +803,10 @@ background-color: #4cae4c;
     background-color: black;
     margin-bottom: 60px;
 }
-
+ */
 
 /* Contenedor principal */
-.contenedor-carrito {
+/* .contenedor-carrito {
     max-width: 100%;
     margin: 20px auto;
     padding: 20px;
@@ -812,20 +816,20 @@ background-color: #4cae4c;
     display: flex;
 
     
-  }
+  } */
   
-  /* Botones y total */
+  /* Botones y total 
   .carrito-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-  }
+  }*/
   
-  .btn {
+  .btn {    
     padding: 10px 20px;
-    background-color: #ea3323;
-    color: white;
+    background-color: #000;
+    color: #ea3323;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -833,10 +837,10 @@ background-color: #4cae4c;
   }
   
   .btn:hover {
-    background-color: #c02b1d;
+    background-color: #fff;
   }
   
-  .total-compra {
+  /* .total-compra {
     text-align: right;
     font-size: 18px;
     color: #333;
@@ -846,7 +850,7 @@ background-color: #4cae4c;
     margin-top: 10px;
   }
   
-  /* Productos del carrito */
+  /* Productos del carrito 
   .carrito-productos {
     display: flex;
     flex-direction: column;
@@ -898,12 +902,113 @@ background-color: #4cae4c;
         box-shadow: -10px 0px 35px 12px rgba(255,0,0,0.66);
 
     
-  }
+  } */
 
 
+   /* SECCION CARRITO */
+
+table#cart-table {
+    width: 80vw; 
+    height: 10vh;
+    border-collapse: collapse;
+    margin: 0; 
+    background-color: #000;
+}
+
+thead th {
+    background-color: #000; 
+    text-align: center;
+    padding: auto;
+    color: #ea3323   ;
+
+}
+
+tbody td {
+    padding: auto;
+    text-align: center;
+    width: 100vw; 
+    background-color: #000;
+    
+}
+
+.contenedor-carrito {
+    
+    width: 100%; 
+    height: 100vh;
+    padding: auto;
+    box-sizing: border-box; 
+    background: linear-gradient(to left, #1f1e1e, #808080, #3B5998);
+    
+}
+
+.carrito-productos {
+    overflow-x: auto; 
+    width: 100vw; 
+    position: fixed;
+    button {
+        padding: 5px 5px; /* Espaciado interno en botones */
+        /*background-color: #007BFF;  Color del botón */
+        color: white; /* Color del texto */
+        border: none; 
+        cursor: pointer; /* Cambiar cursor al pasar por encima */
+        padding: 1px 2  px;
+        background-color: red;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        gap: 30px;
+        font-size: 15px;
         
-  
+        
+    }
+    
 
+}
+
+.total, a {
+    display: block;
+    margin: 10px 0;
+   
+}
+.total{
+    margin-left: 615px;
+    color: #000;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Cambiar color al pasar por encima */
+}
+
+a  {
+    color: #fff;
+    text-decoration: none; 
+    font-size: 20px;
+    margin-bottom: 20px ;
+
+}   
+
+.btnc{
+    margin-left: 00px;
+    font-size: 30px;
+
+}  
+
+a {display: inline-block;
+    
+   justify-content: center;
+}
+a .btnc{
+    background-color: #000;
+    font-size: 25px;
+    margin-left: 300px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: -10px 0px 35px 12px rgba(255,0,0,0.66);
+    
+}
  /* SECCION RESPONSIVE */
 @media screen and (max-width: 850px) {
 
