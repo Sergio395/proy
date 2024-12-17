@@ -43,7 +43,7 @@ function renderCart() {
                 <td>${item.price}</td>
                 <td >$${subtotal.toFixed(2)}</td>
                 <td >
-                    <button class="btn" onclick="removeItem(${index})">Eliminar</button>
+                    <button class="btn" id="borra-item" onclick="removeItem(${index})">Eliminar</button>
                 </td>
             </tr>`;
         cartTable.innerHTML += row;
