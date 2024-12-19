@@ -1,5 +1,3 @@
-// script.js
-
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
 // Agregar producto al carrito
@@ -30,7 +28,7 @@ function renderCart() {
     cart.forEach((item, index) => {
         const subtotal = item.price * item.quantity;
         total += subtotal;
-{/* <td><img src="${item.image}" alt="${item.name}" width="50"></td> */}
+
         const row = `
             <tr>
                 
