@@ -736,6 +736,13 @@ margin: 0 auto;
 margin-top: 20px;
 
 }
+.invalid{
+    border: solid 1px red;
+    box-shadow: 0 0 10px red;
+}
+.error {
+    color: red;
+}
 
 /* Estilo para los inputs y select */
 input[type="text"],
@@ -1008,5 +1015,12 @@ a .btnc:hover{
     dt{
         color: black
     }
+
+}
+/*  MARVEL - API  */
+
+img.img-thumbnail {
+    width: 200px;
+    height: 200px;
 
 }
